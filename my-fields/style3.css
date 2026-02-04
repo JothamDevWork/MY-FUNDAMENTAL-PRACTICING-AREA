@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+header {
+  background-color: grey;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(194, 193, 193);
+}
+content div {
+  display: flex;
+  height: 100px;
+  background-color: rgb(119, 103, 103);
+  margin: 10px;
+}
+footer {
+  background-color: grey;
+}
+
+@media (min-width: 768px) {
+  /* This is a the right query for tablet */
+  nav {
+    flex-direction: row;
+  }
+
+  content div {
+    display: inline-flex;
+    flex-direction: row;
+
+    width: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* This is a the right query for desktop */
+}
