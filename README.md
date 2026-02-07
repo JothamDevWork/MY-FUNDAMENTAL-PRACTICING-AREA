@@ -1,2 +1,2 @@
-# my-fundamental-practicing-area
+# My-fundamental-practicing-area
 This is where I practice the fundamentals (html,css,js,)
